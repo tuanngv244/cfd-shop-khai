@@ -1,0 +1,20 @@
+.modal-backdrop.show {
+    display: initial;
+}
+.fade:not(.show) {
+    display: none;
+}
+.input-group.input-spinner {
+    display: flex;
+    position: relative
+}
+.input-group-prepend{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.input-group-append{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
